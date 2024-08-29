@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: beige;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px
+}
+
+ul, ol {
+    list-style-position: inside;
+    border-width: 2px;
+    border-color: darkolivegreen;
+    border-style: solid;
+}
+
+.noborder {
+    border-style: none;
+}
