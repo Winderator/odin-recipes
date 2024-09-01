@@ -3,6 +3,14 @@ body {
     background-color: beige;
 }
 
+img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 300px;
+    height: auto;
+}
+
 h1 {
     font-size: 60px;
 }
@@ -15,13 +23,39 @@ p {
     font-size: 20px
 }
 
+.introwrap {
+    padding: 10px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(160, 167, 149);
+    border-style: solid;
+    border-radius: 10%;
+    border-color: hsl(46, 64%, 6%);
+    border-width: 3px;
+}
+
 ul, ol {
     list-style-position: inside;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 20px;
+}
+
+ul.border, ol.border {
     border-width: 2px;
     border-color: darkolivegreen;
     border-style: solid;
+    background-color: hwb(103 46% 25%);
 }
 
-.noborder {
-    border-style: none;
+li {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: black
+}
+
+ol li {
+    margin-bottom: 20px;
 }
